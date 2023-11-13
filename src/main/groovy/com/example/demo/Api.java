@@ -15,6 +15,7 @@ public class Api {
     @GetMapping("/hello1")
     @ResponseBody
     public String hello() {
+        System.out.println("hello1");
         return "Hello World!";
     }
 
